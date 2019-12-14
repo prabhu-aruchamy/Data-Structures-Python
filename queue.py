@@ -20,9 +20,11 @@ class Queue:
             print(self.queue[int((i + self.front) % self.max_size)])
 
 q = Queue()
+q.enqueue('8')
 q.enqueue('5')
 q.enqueue('6')
 q.enqueue('3')
 q.enqueue('7')
+q.enqueue('2')
 q.dequeue()
 q.show()
