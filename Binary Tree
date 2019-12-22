@@ -32,6 +32,7 @@ class Node:
 
 # Use the insert method to add nodes
 root = Node(12)
+root.insert(6
 root.insert(6)
 root.insert(14)
 root.insert(3)
